@@ -5,7 +5,6 @@ metadata:
     app: result
   name: result
 spec:
-  replicas: 2
   type: NodePort
   ports:
   - name: "result-service"
